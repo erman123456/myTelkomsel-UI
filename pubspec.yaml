@@ -1,0 +1,50 @@
+name: telkomsel
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get_cli: ^1.8.4
+  carousel_slider: ^4.2.1
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  styled_widget: ^0.4.1
+  url_launcher: ^6.2.4
+  local_auth: ^2.1.8
+  pull_to_refresh: ^2.0.0
+  stroke_text: ^0.0.2
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/icons/telkomsel/
+    - assets/icons/iconly_svg/bold/
+    - assets/icons/iconly_svg/light/
+    - assets/icons/iconly_svg/curved/
+    - assets/images/
+    - assets/images/animations/
+
+  # example:
+  fonts:
+    - family: Batik Sans
+      fonts:
+        - asset: assets/fonts/Batik Sans/Telkomsel Batik Sans Bold.otf
+          weight: 400
+        - asset: assets/fonts/Batik Sans/Telkomsel Batik Sans Regular.otf
+          weight: 400
+
+
